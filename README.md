@@ -1,3 +1,6 @@
+# webpack-angular-razroo
+Webpack build system forked off of Angular Team's angular build system. Adding some preferences such as sass and css-modules.
+
 <p align="center">
   <a href="http://courses.angularclass.com/courses/angular-2-fundamentals" target="_blank">
     <img width="438" alt="Angular 2 Fundamentals" src="https://cloud.githubusercontent.com/assets/1016365/17200649/085798c6-543c-11e6-8ad0-2484f0641624.png">
@@ -312,7 +315,7 @@ import * as _ from 'lodash';
 * node-pre-gyp ERR in npm install (Windows)
  * install Python x86 version between 2.5 and 3.0 on windows see issue [#626](https://github.com/AngularClass/angular2-webpack-starter/issues/626)
 * `Error:Error: Parse tsconfig error [{"messageText":"Unknown compiler option 'lib'.","category":1,"code":5023},{"messageText":"Unknown compiler option 'strictNullChecks'.","category":1,"code":5023},{"messageText":"Unknown compiler option 'baseUrl'.","category":1,"code":5023},{"messageText":"Unknown compiler option 'paths'.","category":1,"code":5023},{"messageText":"Unknown compiler option 'types'.","category":1,"code":5023}]`
- * remove `node_modules/typescript` and run `npm install typescript@beta`. This repo now uses ts 2.0 
+ * remove `node_modules/typescript` and run `npm install typescript@beta`. This repo now uses ts 2.0
 
 # Support, Questions, or Feedback
 > Contact us anytime for anything about this repo or Angular 2
