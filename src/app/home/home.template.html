@@ -5,37 +5,17 @@
     For material design components use the <a href="https://github.com/AngularClass/angular2-webpack-starter/tree/material2"><b>material2</b></a> branch
   </div>
 
-  <hr>
-
-  <div>
-    For hot module reloading run
-    <pre>npm run start:hmr</pre>
-  </div>
-
-  <hr>
-
-  <div>
-    <h4>Local State</h4>
-
-    <form (ngSubmit)="submitState(localState.value)" autocomplete="off">
-
-      <input
-        [value]="localState.value"
-        (input)="localState.value = $event.target.value"
-        placeholder="Submit Local State to App State"
-        autofocus>
-
-      <button md-raised-button color="primary">Submit Value</button>
-    </form>
-    <!--
-        <input type="text" [value]="localState.value" (input)="localState.value = $event.target.value" autofocus>
-        Rather than wiring up two-way data-binding ourselves with [value] and (input)
-        we can use Angular's [(ngModel)] syntax
-        <input type="text" name="textInput" [(ngModel)]="localState.value" autofocus>
-      -->
-
-    <pre>this.localState = {{ localState | json }}</pre>
-
-  </div>
+  <div styleName='choose-size' ref = "chooseSizeContainer">
+        <h6 styleName='header' >Choose size of grid</h6>
+        <form styleName='form'>
+          <label styleName='label'>columns</label>
+          <label styleName='label'>rows</label>
+          <input styleName='input' type="text" value = {this.state.columnCount} defaultValue={20} id="input-for-columns"  />
+          <input styleName='input' type="text" value = {this.state.rowCount} defaultValue={20} id="input-for-rows"  />
+          <label styleName='label'>Pixel Size</label>
+          <button className = {styles.button} id="create_grid" type="button" >Create Grid</button>
+          <input styleName='input' type="text" value = {this.state.pixSize} defaultValue={20} id="input-for-pixel-size"  />
+        </form>
+      </div>
 
 </div>
