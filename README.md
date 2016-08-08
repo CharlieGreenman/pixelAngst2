@@ -1,3 +1,6 @@
+# pixelAngst2
+Pixel Art to Code generator built out in angular 2. 
+
 # webpack-angular-razroo
 Webpack build system forked off of Angular Team's angular build system. Adding some preferences such as sass and css-modules.
 
