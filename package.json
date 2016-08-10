@@ -1,13 +1,13 @@
 {
-  "name": "angular2-webpack-starter",
-  "version": "5.0.5",
-  "description": "An Angular 2 Webpack Starter kit featuring Angular 2 (Router, Http, Forms, Services, Tests, E2E, Coverage), Karma, Protractor, Jasmine, Istanbul, TypeScript, and Webpack by AngularClass",
+  "name": "pixelAngst2",
+  "version": "1.0",
+  "description": "A pixel to Code Illustrator built out in Angular 2",
   "keywords": [
     "angular2",
     "webpack",
     "typescript"
   ],
-  "author": "Patrick Stapleton <patrick@angularclass.com>",
+  "author": "Charlie Greenman",
   "homepage": "https://github.com/angularclass/angular2-webpack-starter",
   "license": "MIT",
   "scripts": {
@@ -85,7 +85,7 @@
     "@angularclass/request-idle-callback": "^1.0.7",
     "@angularclass/conventions-loader": "^1.0.2",
     "angular2-template-loader": "^0.4.0",
-    
+
     "ie-shim": "^0.1.0",
     "core-js": "^2.4.0",
     "rxjs": "5.0.0-beta.6",
