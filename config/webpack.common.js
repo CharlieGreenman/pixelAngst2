@@ -161,7 +161,7 @@ module.exports = {
        */
       {
         test: /\.css$/,
-        loaders: ['to-string-loader', 'css-loader']
+        loaders: ['to-string-loader', 'css-loader?modules&importLoaders=1&sourceMap&localIdentName=[name]__[local]___[hash:base64:5]!postcss-loader?sourceMap']
       },
 
       /* Raw loader support for *.html
